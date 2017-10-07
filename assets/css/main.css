@@ -2282,6 +2282,19 @@
 				width: 100%;
 			}
 
+		.image.fit2 {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+			height: 90%;
+		}
+
+			.image.fit2 img {
+				width: 100%;
+				height: 60%;
+
+			}
+
 		.image.main {
 			display: block;
 			margin: 0 0 3em 0;
@@ -2752,7 +2765,7 @@
 			padding: 0;
 			position: absolute;
 			top: 0;
-			font-size: 1em;
+			font-size: 1.2em;
 		}
 
 		#header a {
@@ -2764,7 +2777,7 @@
 			padding: 0 0.75em;
 			color: inherit;
 			text-decoration: none;
-			font-size: .8em;
+			font-size: 1.2em;
 		}
 
 			#header a:hover {
@@ -2898,7 +2911,7 @@
 			color: #d4e0ef;
 			cursor: pointer;
 			display: block;
-			height: 4em;
+			height: 10em;
 			padding-right: 1.25em;
 			position: absolute;
 			right: 0;
@@ -2934,7 +2947,7 @@
 
 	#banner {
 		padding: 12em 0 10em 0;
-		background-image: url('../../images/banner.jpg');
+		background-image: url('../../images/page1img.jpeg');
 		background-size: cover;
 		background-position: top;
 		background-attachment: fixed;
@@ -2954,7 +2967,7 @@
 
 		#banner p {
 			font-size: 1em;
-			color: rgba(255, 255, 255, 0.55);
+			color: rgba(255, 255, 255, 0.9);
 			margin-bottom: 1.75em;
 		}
 
